@@ -20,14 +20,14 @@ class A:
     some_class_attribute = ...
 ```
 
-- Any double-underscore (dunder) methods, preferably in alphabetical order. (See the section "Order
-of Names")
+- Any double-underscore (dunder) methods, preferably sorted in a similar order to how the
+[data model](https://docs.python.org/3/reference/datamodel.html) is ordered.
 ```
 class B:
-    def __hash__(self):
+    def __init__(self):
         ...
 
-    def __init__(self):
+    def __hash__(self):
         ...
 ```
 
@@ -39,7 +39,7 @@ class C:
         ...
 ```
 
-- Any other external function, again preferring alphabetical sorting.
+- Any other external function, preferring alphabetical sorting. (See the section "Order of Names")
 ```
 class D:
     def some_function(self):
@@ -93,7 +93,7 @@ The first part of it is to ensure that the ordering *truly* does not matter. It 
 questions with relation to it. For each feature:
 
 - Does it depend on another feature? Does any other feature depend on it?
-- Does it inherit from another feature in the same file?
+- Do the features have some implicit relationship (eg. __add__, __radd__)?
 - Does it's functionality or type annotations rely on the creation of some global state?
 
 If any of these questions suggest that the order does matter, the respective order that it suggests 
