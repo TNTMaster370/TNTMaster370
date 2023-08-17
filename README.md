@@ -6,7 +6,7 @@ in Python, but I intend to learn and practice C/C++ at some point in the future.
 around!
 
 - 🔭 I’m currently working on [Scrivid](https://github.com/TNTMaster370/scrivid), a Python package
-for generating instructional videos.
+for generating animation-like videos.
 - 📫 How to reach me: Contact me via my email address, `trystynmcote@gmail.com`.
   - Any spam or promotional emails will be deleted and the sender will be blocked accordingly.
 - 😄 Pronouns: he/him.
