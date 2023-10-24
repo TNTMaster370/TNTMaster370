@@ -10,8 +10,7 @@ for generating animation-like videos.
 - 📫 How to reach me: Contact me via my email address, `trystynmcote@gmail.com`.
   - Any spam or promotional emails will be deleted and the sender will be blocked accordingly.
 - 😄 Pronouns: he/him.
-- ⚡ Fun fact: I have my own [Code-Style sheet](https://github.com/TNTMaster370/TNTMaster370/blob/main/CODESTYLE.md)
-that acts as an extension to PEP 8.
+- ⚡ Fun fact: I have created an extension [Code-Style sheet](https://github.com/TNTMaster370/TNTMaster370/blob/main/CODESTYLE.md) to cover details that PEP 8 doesn't.
 
 <!--
 **TNTMaster370/TNTMaster370** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
