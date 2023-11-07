@@ -21,7 +21,7 @@ class A:
 ```
 
 - Any double-underscore (dunder) methods, preferably sorted in a similar order to how the
-[data model](https://docs.python.org/3/reference/datamodel.html) is ordered.
+[documentation sorts the data model](https://docs.python.org/3/reference/datamodel.html).
 ```
 class B:
     def __init__(self):
@@ -93,7 +93,7 @@ The first part of it is to ensure that the ordering *truly* does not matter. It 
 questions with relation to it. For each feature:
 
 - Does it depend on another feature? Does any other feature depend on it?
-- Do the features have some implicit relationship (eg. __add__, __radd__)?
+- Do the features have some implicit relationship (eg. \_\_add\_\_, \_\_radd\_\_)?
 - Does it's functionality or type annotations rely on the creation of some global state?
 
 If any of these questions suggest that the order does matter, the respective order that it suggests 
