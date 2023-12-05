@@ -65,6 +65,30 @@ def ...():
         ...
 ```
 
+Classes do not necessarily count towards this layer count.
+
+```
+# Layer 0
+class ...:
+    # Layer 0, kinda
+    def ...():
+        # Layer 1
+        ...
+```
+
+... unless we are indenting classes within each other.
+
+```
+# Layer 0
+class ...:
+    # Layer 0, kinda
+    class ...:
+        # Layer 1 - at this point we're counting it
+        def ...():
+            # Layer 2
+            ...
+```
+
 #### Order of Functions Inside Class
 When the body of the class is defined, the order of the functions may not necessarily matter. Unless
 the order of the class parallels a parent class that is not under this style, it should be that the 
