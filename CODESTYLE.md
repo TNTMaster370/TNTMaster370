@@ -7,6 +7,64 @@ convention outside of PEP 8.
 This documents focuses primarily on how I prefer things to be ordered. That said, this is not a firm
 ruleset.
 
+#### Amount of Indentation
+Prefer to avoid deeply-nested indentation. Use extraction or inversion tactics to reduce the scale of
+any function or block of code.
+
+Prefer to indent at three levels or less.
+
+```
+# GOOD
+# Layer 0
+def ...():
+    # Layer 1
+    try:
+        # Layer 2
+        while ...:
+            # Layer 3 - reasonable maximum
+            ...
+    except:
+        ...
+```
+
+Indenting at the fourth level may be acceptable, but only in light doses.
+
+```
+# OKAY
+# Layer 0
+def ...():
+    # Layer 1
+    try:
+        # Layer 2
+        while ...:
+            # Layer 3
+            if ...:
+                # Layer 4 - acceptable presuming that this block is very short and lightweight
+                ...
+    except:
+        ...
+```
+
+Intenting beyond that is not acceptable.
+
+```
+# BAD
+# Layer 0
+def ...():
+    # Layer 1
+    try:
+        # Layer 2
+        with ...:
+            # Layer 3
+            while ...:
+                # Layer 4
+                if ...:
+                    # Layer 5 - this is very hard to read by this point
+                    ...
+    except:
+        ...
+```
+
 #### Order of Functions Inside Class
 When the body of the class is defined, the order of the functions may not necessarily matter. Unless
 the order of the class parallels a parent class that is not under this style, it should be that the 
