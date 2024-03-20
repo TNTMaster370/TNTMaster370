@@ -5,11 +5,12 @@ programming is to hone my skills and make things that I feel are meaningful. I m
 in Python, but I intend to learn and practice C/C++ at some point in the future. Hope to see you 
 around!
 
-- 🔭 I’m currently working on [Scrivid](https://github.com/trystyncote/scrivid), a Python package
-for generating animation-like videos.
+- 🔭 I’m currently working on:
+  - [RemindMail](https://github.com/trystyncote/remindmail), a college group project written in NodeJS, for sending email-based reminders. 
+  - [Scrivid](https://github.com/trystyncote/scrivid), a Python package for generating animation-like videos.
 - 📫 How to reach me: Contact me via my email address, `trystynmcote@gmail.com`.
   - Any spam or promotional emails will be deleted and the sender will be blocked accordingly.
-- 😄 Pronouns: he/him.
+- 😄 Pronouns: he/his/him.
 - ⚡ Fun fact: I have created an extension [Code-Style sheet](https://github.com/trystyncote/trystyncote/blob/main/CODESTYLE.md) to cover details that PEP 8 doesn't.
 
 <!--
